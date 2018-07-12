@@ -1,0 +1,86 @@
+/* DESCRIPTION */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+	color:blue;
+	font-size:10px;
+  }
+  
+  25% {
+	color:gray;
+	font-size:15px;
+  }
+  
+  50% {
+	color:green;
+	font-size:1px;
+  }
+  75% {
+	color:green;
+	font-size:15px;
+  }
+  
+
+  100% {
+	color:gold;
+  }
+}
+
+#descriptionLogo {
+  animation-name: rotate;
+  animation-duration: 3.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+
+/* ------------------------------------ORDER--------------------- */
+@keyframes gloing {
+  0% {
+    transform: rotate(0deg);
+	text-shadow:22px;
+  }
+  
+  25% {
+	color:blue;
+	font-size:20px;
+	text-shadow:22px;
+  }
+
+  100% {
+	color:gold;
+	text-shadow:22px;
+  }
+}
+
+#header3b2 {
+  animation-name: gloing;
+  animation-duration: .7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* -----------------------------------------HEADER FLASHER------------------- */
+@keyframes teasteDiff {
+  0% {
+    transform: rotate(0deg);
+	text-shadow:22px;
+  }
+  
+  25% {
+	color:blue;
+	text-shadow:22px;
+  }
+
+  100% {
+	color:gold;
+	text-shadow:22px;
+  }
+}
+
+#theTeasteIsTheDiff {
+  animation-name: teasteDiff;
+  animation-duration: .7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
